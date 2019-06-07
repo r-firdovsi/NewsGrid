@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .list li {
     padding: .5rem 0;
-    border-bottom: #555 dotted 1px;
+    border-bottom: #555 solid 1px;
     width: 90%;
 }
 
@@ -211,6 +211,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #777;
     margin-right: .5rem;
 }
+
+#main-nav .social a:first-child i:hover { color: #3b5998 }
+#main-nav .social a:nth-child(2) i:hover { color: #55acee }
+#main-nav .social a:nth-child(3) i:hover { color: #3f729b }
+#main-nav .social a:last-child i:hover { color: #cd201f }
 
 /* Showxase */
 
